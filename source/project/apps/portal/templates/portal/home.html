@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% load static %}
+
+{% block links %}
+<link href="{% static 'main.css' %}" rel="stylesheet">
+<link href="{% static 'portal/main.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block title %}home{% endblock %}
+
+{% block contents %}
+<h1>hello world</h1>
+
+{% endblock %}
